@@ -16,3 +16,4 @@ cp "$TEMPLATE_PATH.stories.tsx" "$PWD/$NAME/$NAME.stories.tsx"
 cp "$TEMPLATE_PATH.module.css" "$PWD/$NAME/$NAME.module.css"
 
 sed -i '' "s/{{ componentName }}/${NAME}/g" $PWD/$NAME/*.*
+sed -i '' "s/{{ componentName }}/${NAME}/g" $PWD/$NAME/$TESTS_DIR/*.*

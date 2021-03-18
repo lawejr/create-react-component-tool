@@ -1,4 +1,4 @@
-import { {{ componentName }} } from './{{ componentName }}'
+import { {{ componentName }} } from '../{{ componentName }}'
 
 describe('Spec <{{ componentName }} />', () => {
   it('Корректный рендер', () => {
