@@ -1,5 +1,6 @@
 import { Story, Meta } from '@storybook/react/types-6-0'
-import { {{ componentName }}, I{{ componentName }}Props } from './{{ componentName }}'
+import { {{ componentName }} } from './{{ componentName }}'
+import { I{{ componentName }}Props } from './types'
 
 export default {
     title: 'Common/{{ componentName }}',
