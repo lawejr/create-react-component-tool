@@ -1,7 +1,6 @@
-import { FC } from 'react'
 import { I{{ componentName }}Props } from './types'
 import styles from './{{ componentName }}.module.css'
 
-export const {{ componentName }}: FC<I{{ componentName }}Props> = function() {
+export function {{ componentName }}(props: I{{ componentName }}Props) {
   return (<div className={styles.{{ componentName }}}></div>)
 }
